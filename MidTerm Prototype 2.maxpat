@@ -39,6 +39,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"autofit" : 1,
+					"id" : "obj-13",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 60.0, 292.0, 100.0, 31.985294 ],
+					"pic" : "C:/Users/GenHero/Desktop/play_stop.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 636.750122, 240.0, 132.0, 60.88731 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
 					"forceaspect" : 1,
 					"id" : "obj-5",
 					"maxclass" : "fpic",
@@ -299,7 +314,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 69.0, 504.0, 136.0, 38.0 ],
-					"presentation_rect" : [ 240.0, 240.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 240.0, 240.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -347,7 +362,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 576.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 635.083435, 295.743652, 45.0, 45.0 ],
+					"presentation_rect" : [ 680.250122, 302.887299, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -386,9 +401,9 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.552941, 0.552941, 1.0 ],
+					"elementcolor" : [ 0.592157, 0.4, 0.4, 1.0 ],
 					"id" : "obj-54",
-					"knobcolor" : [ 0.439216, 0.447059, 0.529412, 1.0 ],
+					"knobcolor" : [ 0.317647, 0.466667, 0.592157, 1.0 ],
 					"knobshape" : 4,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -2834,31 +2849,31 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-64::obj-40" : [ "umenu[2]", "umenu", 0 ],
-			"obj-2::obj-64::obj-56" : [ "textbutton", "textbutton", 0 ],
-			"obj-23::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-34::obj-11" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-10::obj-22" : [ "range[7]", "range", 0 ],
+			"obj-9::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-17::obj-94" : [ "umenu[1]", "umenu", 0 ],
-			"obj-17::obj-68" : [ "horizontal", "horizontal", 0 ],
-			"obj-17::obj-17" : [ "range[4]", "range", 0 ],
-			"obj-2::obj-38" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
 			"obj-17::obj-54" : [ "umenu[6]", "umenu", 0 ],
+			"obj-10::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
+			"obj-34::obj-22" : [ "range[3]", "range", 0 ],
 			"obj-34::obj-14" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
 			"obj-17::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-17::obj-24" : [ "vertical", "vertical", 0 ],
-			"obj-34::obj-22" : [ "range[3]", "range", 0 ],
-			"obj-10::obj-14" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
-			"obj-17::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-17::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-9::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-2::obj-49" : [ "range[5]", "range", 0 ],
-			"obj-10::obj-22" : [ "range[7]", "range", 0 ],
 			"obj-17::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-17::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
 			"obj-3" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-9::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-23::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-23::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-17::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
 			"obj-2::obj-39" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
-			"obj-10::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ]
+			"obj-10::obj-14" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-2::obj-64::obj-56" : [ "textbutton", "textbutton", 0 ],
+			"obj-2::obj-38" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-2::obj-49" : [ "range[5]", "range", 0 ],
+			"obj-17::obj-24" : [ "vertical", "vertical", 0 ],
+			"obj-17::obj-17" : [ "range[4]", "range", 0 ],
+			"obj-9::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-34::obj-11" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-17::obj-68" : [ "horizontal", "horizontal", 0 ],
+			"obj-2::obj-64::obj-40" : [ "umenu[2]", "umenu", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
